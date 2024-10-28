@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Simplified Present Box -->
+        <div class="gift-emoji-box" id="giftBox" onclick="unwrapGift()">
+            <div class="emoji-bow"></div>
+            <div class="emoji-ribbon-vertical"></div>
+            <div class="emoji-ribbon-horizontal"></div>
+            <p class="gift-label">🎁 Tap to Open 🎁</p>
+        </div>
+        
+        <!-- Birthday Card -->
+        <div class="card hidden" id="card">
+            <h1>Happy Birthday Cheenu🐼!</h1>
+            <p class="message" id="birthdayMessage"></p>
+            <button class="wrap-again" onclick="wrapGift()">Wrap Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
